@@ -1,5 +1,5 @@
 // Theme Colors
-$blue-dark:    #63719C !default;
+$blue:    #63719C !default;
 $orange:  #F15A29 !default;
 
 
@@ -19,9 +19,11 @@ $gray-900: #212529 ;
 $black:    #000 ;
 
 $primary:       $orange;
-$secondary:     $blue-dark;
+$secondary:     $blue;
 
+// Font Family Added
 
+$font-family-sans-serif:'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 // Import Bootstap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -30,7 +32,7 @@ $secondary:     $blue-dark;
     font-size: .9rem!important;
 }
 .btn-primary {
-    color: #fff!important;
+    color: $white!important;
 }
 .success-msg h6 {
     font-size: .8rem;

@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #63719C;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -49,7 +49,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -10793,10 +10793,6 @@ textarea.form-control-lg {
   padding: 0;
 }
 
-body {
-  font-family: "Inter", sans-serif;
-}
-
 .image-wrapper {
   background-image: linear-gradient(#F9F9F9, #FFFFFF);
   height: 100vh;
@@ -10836,7 +10832,7 @@ body {
   box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.04) !important;
 }
 .shadow-cs:focus {
-  border-color: #63719C;
+  border-color: #282d3e;
   box-shadow: 0rem 0rem rgba(0, 0, 0, 0.04) !important;
 }
 

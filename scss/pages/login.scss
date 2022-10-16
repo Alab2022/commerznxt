@@ -6,9 +6,6 @@
     padding: 0; 
 }
 
-body{
-    font-family: 'Inter', sans-serif;
-}
 
 .image-wrapper {
     @include gradient;
@@ -46,7 +43,7 @@ body{
 .shadow-cs {
     box-shadow: 0 .1rem .1rem rgba(0,0,0,.04)!important;
     &:focus{
-        border-color: $blue-dark;
+        border-color: $blue-800;
         box-shadow: 0rem 0rem rgba(0,0,0,.04)!important;
     }
 
