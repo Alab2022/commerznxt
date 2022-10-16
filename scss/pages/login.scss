@@ -1,0 +1,87 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.image-wrapper {
+    @include gradient;
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 70%;
+      }
+  }
+.logo_log {
+    img {
+        width: 75%;
+        margin-bottom: 20px;
+    }
+}
+.form-wrapper-login {
+    /* margin-top: 10%; */
+    padding: 0 20%;
+}
+.po-inp {
+    position: relative;
+    img.min-icon {
+        position: absolute;
+        right: 20px;
+        top: 16px;
+        width: 16px !important;
+    }
+}
+.form-wrapper-main.fo-flx-js-center {
+    height: 100%;
+}
+.shadow-cs {
+    box-shadow: 0 .1rem .1rem rgba(0,0,0,.04)!important;
+    &:focus{
+        border-color: $blue-dark;
+        box-shadow: 0rem 0rem rgba(0,0,0,.04)!important;
+    }
+
+}
+.error-msg{
+    color:$red;
+    text-align: left!important;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 2px;
+}
+h6.dark {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+}
+.form-wrapper {
+
+    a {
+        font-size: 14px;
+        color: #f59e0b;
+        font-weight: 600;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    
+}
+.success-msg {
+    h6 {
+        color: $green;
+        margin-top: 30px !important;
+        font-weight: 500 !important;
+    }
+}

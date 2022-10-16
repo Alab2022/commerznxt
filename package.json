@@ -1,0 +1,20 @@
+{
+  "name": "sales-executive",
+  "version": "1.0.0",
+  "description": "Sales Executive sass version",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "author": "CommerzNxt",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1",
+    "postcss-cli": "^10.0.0"
+  }
+}

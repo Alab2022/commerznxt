@@ -1,0 +1,37 @@
+// Theme Colors
+$blue-dark:    #63719C !default;
+$orange:  #F15A29 !default;
+
+
+
+
+// White and Greay Colours
+$white:    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+
+$primary:       $orange;
+$secondary:     $blue-dark;
+
+
+// Import Bootstap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.form-control-lg {
+    padding: 0.8rem 1rem!important;
+    font-size: .9rem!important;
+}
+.btn-primary {
+    color: #fff!important;
+}
+.success-msg h6 {
+    font-size: .8rem;
+}

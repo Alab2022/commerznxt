@@ -1,0 +1,8 @@
+@use '../custom' as *;
+
+// Image Gradient
+
+@mixin gradient{
+    background-image: linear-gradient(#F9F9F9, #FFFFFF);
+}
+
