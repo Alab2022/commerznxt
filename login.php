@@ -1,5 +1,5 @@
 <?php include('include/head.php'); ?>    
-	<div class="container-fluid">
+	<div class="container-fluid login">
 		<div class="row">
 			<div class="col-lg-7 col-md-12 col-sm-12 px-0">
 				<div class="image-wrapper"> <img src="img/login-vector.png" alt=""> </div>
@@ -19,7 +19,9 @@
 								<input type="password" class="form-control shadow-cs form-control-lg" id="pwd" placeholder="Enter Password" name="pswd">
 								<div class="error-msg"> Password is required </div> <img class="min-icon" src="img/lo-eye.svg" alt=""> </div> <a href="forgotpassword.php">Forgot Password?</a> </form>
 						<button type="submit" class="btn btn-primary w-100 mt-3">Login</button>
+						
 					</div>
+
 					<!-- <div class="copyright">
                     <h6>© 2022 CommerzNxt.com</h6>
                 </div> --></div>

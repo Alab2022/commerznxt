@@ -1,9 +1,10 @@
 // Theme Colors
 $blue:    #63719C !default;
 $orange:  #F15A29 !default;
-
-
-
+$green-cnxt:#698473!default;
+$green-cnxt-100:#8fffb8;
+$pink:#e7fd6b!default;
+$body-background: #eff2f6;
 
 // White and Greay Colours
 $white:    #fff ;
@@ -21,6 +22,13 @@ $black:    #000 ;
 $primary:       $orange;
 $secondary:     $blue;
 
+//Green Colour
+
+$green-cnxt-100: tint-color($green-cnxt, 80%);
+$green-cnxt-200: tint-color($green-cnxt, 60%);
+$green-cnxt-300: tint-color($green-cnxt, 40%);
+$green-cnxt-400: tint-color($green-cnxt, 20%);
+
 // Font Family Added
 
 $font-family-sans-serif:'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -37,3 +45,16 @@ $font-family-sans-serif:'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "
 .success-msg h6 {
     font-size: .8rem;
 }
+.btn-green{
+    background-color: $green-cnxt;
+    &:hover{
+        background-color: $pink-400!important;
+    }
+}
+// @include media-breakpoint-up(lg){
+
+// }
+.btn{
+    font-weight: 600;
+}
+

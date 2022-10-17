@@ -1,5 +1,5 @@
 <?php include('include/head.php'); ?>    
-	<div class="container-fluid">
+	<div class="container-fluid login">
         <div class="row">
 			<div class="col-lg-7 col-md-12 col-sm-12 px-0">
 				<div class="image-wrapper"> <img src="img/login-vector.png" alt=""> </div>
@@ -7,7 +7,7 @@
 			<div class="col-lg-5 col-md-12 col-sm-12 px-0">
 				<div class="form-wrapper-main d-flex align-items-center fo-flx-js-center">
 					<div class="form-wrapper form-wrapper-login logo_log text-center"> <img src="img/logo-main.png" alt="">
-						<h5>Forgot Password?</h5>
+						<h5 class="title mt-4">Forgot Password?</h5>
 						<h6 class="mt-4 mb-4 dark">A Verification code will be send to your
                         registered Email / Mobile</h6>
 						<form action="/action_page.php">

@@ -1,0 +1,165 @@
+@use '../custom' as *;
+
+.fo-flx-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fo-flx-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fo-flx-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.fo-flx-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.fo-flx-js-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fo-flx-sb-bl {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.fo-flx-js-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.right p, h1 {
+  margin-bottom: 0;
+}
+
+.left p, h1 {
+  margin-bottom: 0;
+}
+
+.fo-flx {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: rgba(89, 89, 89, 0.16) 0px 1px 4px;
+}
+
+.card-pd {
+  padding: 16px;
+}
+
+.mr0-5 {
+  margin-right: 5px;
+}
+
+.mr1 {
+  margin-right: 10px;
+}
+
+.mr2 {
+  margin-right: 20px;
+}
+
+.mr3 {
+  margin-right: 30px;
+}
+
+.ml1 {
+  margin-left: 10px;
+}
+
+.ml2 {
+  margin-left: 20px;
+}
+
+.ml3 {
+  margin-left: 30px;
+}
+.mr5{
+    margin-right: 50px;
+}
+
+h6.st-wi {
+  width: 110px;
+  white-space: nowrap;
+}
+h6{
+    font-weight: 600 !important;
+    color: #505050;
+    font-size: 14px !important;
+}
+
+h6.dark {
+  font-weight: 600 !important;
+  color: #525252;
+  font-size: 15px !important;
+}
+
+.breadcrumb {
+  background: none;
+  margin-bottom: 0;
+}
+
+ul.breadcrumb {
+  padding: 3px 0px 15px;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+  color: #ABABAB;
+  margin-right: 5px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 2px;
+  color: #ABABAB;
+  content: "/";
+  margin-right: 5px;
+}
+
+ul.breadcrumb li a {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+ul.breadcrumb li:first-child a {
+  padding-left: 0px;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.db-top-wrapper h4 {
+  font-size: 20px;
+  color: #707070;
+  margin-bottom: 0;
+}
+.container-fluid {
+  padding-left: 56px;
+  padding-right: 56px;
+}
