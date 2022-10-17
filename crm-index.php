@@ -1,4 +1,4 @@
-<?php include('include/head.php'); ?>  
+<?php include('include/head-inner.php'); ?>  
 <?php include('include/header.php'); ?>     
     <div class="container-fluid remove-margin bg-white">
       <div class="db-top-wrapper">

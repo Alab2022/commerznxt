@@ -11198,6 +11198,10 @@ ul.breadcrumb li a:hover {
   padding-right: 56px;
 }
 
+body.inner {
+  background-color: #eff2f6 !important;
+}
+
 .nav-tabs.page-nav {
   background: #fff;
   padding: 0 46px;
@@ -11229,7 +11233,7 @@ ul.breadcrumb li a:hover {
   align-items: center;
   color: var(--primary-text);
   background: #fdfdfd;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .nav-tabs.page-nav .nav-item {

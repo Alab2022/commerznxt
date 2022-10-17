@@ -6,6 +6,7 @@
 }
 .tab-page{
     padding: 30px 46px 0;
+    
 }
 .nav-tabs.page-nav .nav-item.show .nav-link {
     background-color:$body-background;
@@ -27,7 +28,7 @@
     align-items: center;
     color: var(--primary-text);
     background: #fdfdfd;
-    font-weight: 600;
+    font-weight: 500;
 }
 .nav-tabs.page-nav .nav-item{
     margin-right: 5px;
